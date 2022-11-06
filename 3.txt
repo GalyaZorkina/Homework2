@@ -1,0 +1,5 @@
+x=float(input())
+from math import sin,cos,tan,radians
+r=radians(x)
+n=sin(r)+cos(r)+tan(r)**2
+print(n)
